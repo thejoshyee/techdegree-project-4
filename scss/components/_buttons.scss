@@ -14,20 +14,41 @@
   
   .default {
     background-color: $babyblue;
+    &:hover {
+      background-color: lighten($babyblue, 15%);
+      transition: .8s;
+    }
   }
   
   .error {
     background-color: $red;
+    &:hover {
+      background-color: lighten($red, 15%);
+      transition: .8s;
   }
+}
   
   .info {
     background-color: $purple;
+    &:hover {
+      background-color: lighten($purple, 15%);
+      transition: .8s;
   }
+}
   
+
   .success {
     background-color: $green;
+    &:hover {
+      background-color: lighten($green, 15%);
+      transition: .8s;
   }
+}
   
   .warning {
     background-color: $orange;
+    &:hover {
+      background-color: lighten($orange, 15%);
+      transition: .8s;
   }
+}
